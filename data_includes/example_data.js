@@ -40,7 +40,7 @@ var items = [
             .print()
         ,
         newTextInput("warm alternative")
-            .settings.before("I thought the weather was warm, but it really is ")
+            .settings.before( newText("before", "I thought the weather was warm, but it really is ") )
             .print()
         ,
         newButton("validate input", "Click here to validate")
